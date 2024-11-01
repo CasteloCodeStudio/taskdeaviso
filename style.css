@@ -31,3 +31,25 @@ H1{
     background-color: green;
     text-align: center;
 }
+
+button{
+    margin-left: 30%;
+    margin-top: 40px;
+    padding: 40px 60px;
+    background-color: green;
+    width: 300px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
